@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 5
+  database: ruby-test_development
+  username: db_manager
+  password: 123
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 5
+  database: ruby-test_test
+  username: db_manager
+  password: 123
+
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 5
+  database: ruby-test_production
+  username: db_manager
+  password: 123
